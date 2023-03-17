@@ -1,0 +1,12 @@
+#리스트에 원소 추가하기
+listname.append()
+#원소 한개만 쓸 수 있음. 맨 뒤에 추가됨
+listnmae.insert(2,3)
+#insert(위치,값)을 넣는다.
+listname=[3,1,2,3]
+listname.remove(3)
+#remove는 제일 앞의 원소를 지운다.
+print(d) #[1,2,3]
+listname.sort() #괄호 안은 null 
+#숫자는 오름차순[1,2,3,4]순서, 문자는 사전순['carrot','apple','banana']->['apple','banana','carrot']
+#리스트는 같은 자료형만 가능
