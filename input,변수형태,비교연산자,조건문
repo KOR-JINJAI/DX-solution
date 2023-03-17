@@ -1,0 +1,28 @@
+#input
+var = input()
+
+print("앵무새 :", var)
+
+print(type(var))
+
+#input은 무조건 str로 받는다.
+
+#int,float,str,list
+#int 정수
+#float 실수
+#str 문자열
+#list 리스트=/=문자열
+
+
+#비교연산자
+# Q1. == 혹은 != 연산자을 이용해서 True인 명제를 ans1에 넣어봅시다.
+ans1 =3==3
+
+# Q2. > 혹은 < 연산자를 이용해서 False인 명제를 ans2에 넣어봅시다.
+ans2 = 3>5
+
+# Q3. >= 혹은 <= 연산자를 이용해서 True인 명제를 ans3에 넣어봅시다.
+ans3 = 3>=2
+
+# 위의 세 변수를 출력해서 True, False 여부를 확인해봅시다.
+print(ans1, ans2, ans3)
