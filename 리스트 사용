@@ -2,11 +2,22 @@
 listname.append()
 #원소 한개만 쓸 수 있음. 맨 뒤에 추가됨
 listnmae.insert(2,3)
-#insert(위치,값)을 넣는다.
+#insert(위치,값)을 넣는다. (위치)의 원소를 밀어낸다.
 listname=[3,1,2,3]
 listname.remove(3)
 #remove는 제일 앞의 원소를 지운다.
 print(d) #[1,2,3]
 listname.sort() #괄호 안은 null 
 #숫자는 오름차순[1,2,3,4]순서, 문자는 사전순['carrot','apple','banana']->['apple','banana','carrot']
+#오름차순 : 올라간다. 1->2->3->4
 #리스트는 같은 자료형만 가능
+
+
+#슬라이싱 : 리스트에서 원소 열을 꺼내오기
+#인덱싱 : 원소 하나 꺼내오기
+my_str= "Impossible"
+my_list=["Apple","Banana","Chamwae","Durian"]
+var1=my_list[2] #원소 하나 꺼내기 - 인덱싱
+print(var1)
+var2=my_list[2:] #원소 열 꺼내기 - 슬라이싱
+print(var2)
